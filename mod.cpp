@@ -1,0 +1,10 @@
+name = "Blackout Server"; 								                                            // name 
+picture = "vg7_blackout_server\vg7_blackout_server\data\Blackout_Updated.paa";			                                        // picture in expanded description
+logoSmall = "vg7_blackout_server\vg7_blackout_server\data\Blackout_Updated.paa";	                                            // icon next to mod name when description is not expanded
+logo = "vg7_blackout_server\vg7_blackout_server\data\Blackout_Updated.paa";				                                    // logo below game menu
+logoOver = "vg7_blackout_server\vg7_blackout_server\data\Blackout_Updated.paa";	                                            // on mouse hover over logo
+tooltip = "Blackout Server by Dr Blackouts";						                                    // tool tip on mouse hover
+overview = "The best server in DayZ"; 					// overview
+action = "";					// link
+author = "VectorG7";							                                                // author
+version = "1.0";								                                                // version						                                                // version
