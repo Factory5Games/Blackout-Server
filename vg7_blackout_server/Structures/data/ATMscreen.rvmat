@@ -1,0 +1,13 @@
+ambient[]={0.15000001,0.15000001,0.15000001,1};
+diffuse[]={0.15000001,0.15000001,0.15000001,1};
+forcedDiffuse[]={0,0,0,0};
+emmisive[]={0.16,0.50999999,0.30000001,1};
+specular[]={0.49000001,0.49000001,0.49000001,0.1};
+specularPower=80;
+PixelShaderID="Super";
+VertexShaderID="Super";
+class Stage1
+{
+	texture="vg7_blackout_server\vg7_blackout_server\Structures\data\ATM.paa";
+	uvSource="0";
+};
