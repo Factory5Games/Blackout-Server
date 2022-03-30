@@ -7,7 +7,7 @@ class CfgPatches
 		requiredVersion=0.1;
 		requiredAddons[]=
 		{
-			"DZ_Scripts","DZ_Data","DZ_Gear_Containers","DZ_Sounds_Effects","DZ_Vehicles_Wheeled","DZ_Vehicles_Parts","DZ_Gear_Camping"
+			"DZ_Data","DZ_Scripts","DZ_Gear_Containers","DZ_Sounds_Effects","DZ_Vehicles_Wheeled","DZ_Vehicles_Parts","DZ_Gear_Camping"
 			
 		};
 	};
@@ -19,39 +19,33 @@ class CfgMods
 	{
 		dir="vg7_blackout_server";
 		picture="vg7_blackout_server\vg7_blackout_server\data\Blackout_Updated.paa";
-		action="";
-		hideName=1;
-		hidePicture=1;
+		action="https://steamcommunity.com/sharedfiles/filedetails/?id=2722222836";		
 		name="Blackout Server";
 		credits="VectorG7 Blackouts";
-		author="VectorG7";
-		authorID="0";
-		version="1.0";
-		extra=0;
+		author="VectorG7";		
 		type="mod";
-		dependencies[] = 
-		{
-			"Game",
-		 	"World",
-			"Mission" 
-		 };
+		dependencies[] = { "Game", "World", "Mission" };
 		
 		class defs
 		{
+			class imageSets
+			{				
+				files[] = {"vg7_blackout_server\vg7_blackout_server\data\Set1\CustomGUI_1.imageset"};
+			};
 			class gameScriptModule
 			{
 				value = "";
-				files[] = {"vg7_blackout_server/vg7_blackout_server/scripts/3_game"};
+				files[] = {"vg7_blackout_server\vg7_blackout_server\scripts\3_game"};
 			};
 			class worldScriptModule
 			{
 				value = "";
-				files[] = {"vg7_blackout_server/vg7_blackout_server/scripts/4_World"};
+				files[] = {"vg7_blackout_server\vg7_blackout_server\scripts\4_World"};
 			};
 			class missionScriptModule
 			{
 				value = "";
-				files[] = {"vg7_blackout_server/vg7_blackout_server/scripts/5_mission"};
+				files[] = {"vg7_blackout_server\vg7_blackout_server\scripts\5_mission"};
 			};
 		};
 	}; 

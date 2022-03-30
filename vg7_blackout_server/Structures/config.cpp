@@ -9,7 +9,6 @@ class CfgPatches
 class CfgVehicles
 {
 	class HouseNoDestruct;
-    class ExpansionATMLocker;
 	class land_blackout_trader_container: HouseNoDestruct
 	{
 		scope = 2;
@@ -54,35 +53,18 @@ class CfgVehicles
 		};
 	};
 
-    class land_blackout_atm: ExpansionATMLocker
+    class Nehr_Gaming_01: HouseNoDestruct
 	{
 		scope = 2;
-		model = "\vg7_blackout_server\vg7_blackout_server\Structures\atm.p3d";
+		model = "\vg7_blackout_server\vg7_blackout_server\Structures\avtomat5.p3d";
         hiddenSelections[]=
 		{
-			"atm",
-            "screen"
+			"morskoyboy"			
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"vg7_blackout_server\vg7_blackout_server\Structures\data\ATMplain.paa",
-            "vg7_blackout_server\vg7_blackout_server\Structures\data\ATMplain.paa"
-		};		
+			"vg7_blackout_server\vg7_blackout_server\Structures\data\morskoyboy_avtomat3.paa",			
+		};        
 	};
-
-    class land_blackout_atm_graffiti: ExpansionATMLocker
-	{
-		scope = 2;
-		model = "\vg7_blackout_server\vg7_blackout_server\Structures\atm.p3d";
-        hiddenSelections[]=
-		{
-			"atm",
-            "screen"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"vg7_blackout_server\vg7_blackout_server\Structures\data\ATM.paa",
-            "vg7_blackout_server\vg7_blackout_server\Structures\data\ATM.paa"
-		};		
-	};
+    
 };
